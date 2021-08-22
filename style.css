@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Niconne&family=Poppins:wght@300&display=swap');
+
 body {
   font-family: "courier";
   background-color: black;
@@ -12,12 +14,22 @@ div {
   width: 500px;
 }
 
+h1 {
+  font-family: 'Niconne', cursive;
+  font-size: 70px;
+}
+
+p {
+  font-family: 'Crete Round', serif;
+  font-size: 20px;
+}
+
 #encrypt_container {
-  border: solid 3px greenyellow;
+  border: solid 3px rgb(181, 110, 209);
 }
 
 #decrypt_container {
-  border: solid 3px coral;
+  border: solid 3px rgb(250, 150, 114);
 }
 
 input[type=button] {
@@ -29,6 +41,7 @@ input[type=button] {
   padding: 5px;
   margin-top: 20px;
   width: 80px;
+  font-size: 15px;
 }
 
 input[type=button]:hover {
@@ -44,6 +57,7 @@ input[type=text] {
   padding: 5px;
   width: 300px;
   font-family: courier;
+  font-size: 15px;
 }
 
 input[type=number] {
@@ -54,4 +68,8 @@ input[type=number] {
   padding: 5px;
   width: 75px;
   font-family: courier;
+}
+
+#encrypt_output, #decrypt_output {
+  font-family: 'Poppins', sans-serif;
 }

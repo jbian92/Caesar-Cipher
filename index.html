@@ -7,27 +7,28 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>My Caesar Cipher</h1>
+    <h1>Welcome to the Caesar Cipher!</h1>
 
     <div id="encrypt_container">
-      <p><strong>Plain text to encrypt</strong></p>
+      <p>Plain text to encrypt</p>
       <input type="text" id="plaintext"/>
       <br/>
-      <p><strong>Key to encrypt</strong></p>
+      <p>Key to encrypt</p>
       <input type="number" id="encrypt_key"/>
       <br/>
-      <input type="button" id="encrypt" value="encrypt"/>
+      <input type="button" id="encrypt" value="ENCRYPT"/>
+      <p>Encrypted ciphertext (AKA ciphertext):</p>
       <p id="encrypt_output"></p>
     </div>
 
     <div id="decrypt_container">
-      <p><strong>Ciphertext to decrypt</strong></p>
+      <p>Ciphertext to decrypt</p>
       <input type="text" id="ciphertext"/>
       <br/>
-      <p><strong>Key to decrypt</strong></p>
+      <p>Key to decrypt</p>
       <input type="number" id="decrypt_key"/>
       <br/>
-      <input type="button" id="decrypt" value="decrypt"/>
+      <input type="button" id="decrypt" value="DECRYPT"/>
       <p>Decrypted ciphertext (AKA plain text):</p>
       <p id="decrypt_output"></p>
     </div>
