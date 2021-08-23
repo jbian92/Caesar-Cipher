@@ -4,3 +4,4 @@ This Caesar Cipher was built in JavaScript during Execute Big's Tech Roulette We
 - Practiced using the Caesar Cipher to encrypt and decrypt messages
 
 ## Website: https://jbian92.github.io/Caesar-Cipher/ 
+![demo](demo.gif)
